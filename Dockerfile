@@ -1,4 +1,4 @@
-FROM python:3.11.7
+FROM python:3.9.23
 
 COPY . .
 RUN pip3 install -r requirements.txt
